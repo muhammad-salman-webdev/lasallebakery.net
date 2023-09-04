@@ -193,8 +193,7 @@
 }
 
 .footer-modern-list {
-	text-align: left;
-	columns: 2;
+	text-align: left; 
 	break-inside: avoid;
 	-moz-column-gap: 20px;
 	-webkit-column-gap: 20px;
@@ -222,7 +221,7 @@
 		}
 	}
 
-	> li { margin-bottom: 7px; }
+	> li { margin-bottom: 4px; }
 
 	a {
 		vertical-align: middle;

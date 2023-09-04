@@ -1184,11 +1184,13 @@
 .promo-classic {
 	text-align: center;
 	border: 10px solid $gray-10;
+    background-color: $gray-108;
 	padding: 30px 15px 90px;
 	background-image: url('../images/promo-1-1149x474.jpg');
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	z-index: 1;
 }
 
 .promo-classic-title {
