@@ -15563,7 +15563,6 @@ html.rd-navbar-fixed-linked .page {
 		margin-top: 44px;
 	}
 }
-
 .isotope-filters-list {
 	position: absolute;
 	top: calc(100% + 20px);
@@ -15578,8 +15577,33 @@ html.rd-navbar-fixed-linked .page {
 	visibility: hidden;
 	transition: all .3s ease-in-out;
 	z-index: 2;
+} 
+.page.cake .section-xl,
+.page.bread .section-xl{
+	padding-top: 20px;
 }
-
+.page.cake .isotope-filters-list,
+.page.bread .isotope-filters-list{
+	position: absolute;
+    left: 50%;
+	top: 0;
+    visibility: visible;
+    opacity: 1;
+    max-width: 100vw; 
+    flex-direction: row !important;
+    overflow: auto;
+    width: 100vw;
+    display: flex;
+    transform: translate(-50%, 0px);
+}
+.page.cake .isotopet,
+.page.bread .isotopet{
+	margin-top: 50px !important;
+}
+.page.cake .isotope-filters-list li a,
+.page.bread .isotope-filters-list li a{
+	margin-bottom: 0 !important;
+}
 .isotope-filters-list a {
 	position: relative;
 	text-align: center;
@@ -15675,6 +15699,27 @@ html.rd-navbar-fixed-linked .page {
 	.isotope-filters-toggle {
 		display: none;
 	}
+	.page.cake .section-xl,
+.page.bread .section-xl{
+	padding-top: 50px;
+}
+.page.cake .isotope-filters-list,
+.page.bread .isotope-filters-list{
+	flex-direction: column !important;
+	overflow: initial;
+	position: static;
+	transform: none;
+	max-width: max-content;
+	width: fit-content;
+}
+.page.cake .isotopet,
+.page.bread .isotopet{
+	margin-top: 0px !important;
+}
+.page.cake .isotope-filters-list li a,
+.page.bread .isotope-filters-list li a{
+	margin-bottom: 1rem !important;
+}
 }
 
 @media (max-width: 575.98px) {
