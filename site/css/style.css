@@ -132,7 +132,10 @@ button:focus {
 button::-moz-focus-inner {
 	border: 0;
 }
-
+.text-theme-2{
+	color: #053B50;
+	line-height: normal;
+}
 *:focus {
 	outline: none;
 }
@@ -10815,11 +10818,11 @@ html:not(.lt-ie10) .not-animated {
 	width: 100%;
 	height: 100%;
 	border-radius: 100%;
-	border: 5px solid rgba(193, 70, 121, 0.7);
+	border: 5px solid #deb50b;
 	border-right: none;
 	border-top: none;
 	background-clip: padding;
-	box-shadow: inset 0 0 10px rgba(193, 70, 121, 0.15);
+	box-shadow: inset 0 0 10px #deb50b26;
 }
 
 .cssload-circle:nth-of-type(0) {
@@ -12967,7 +12970,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-modern.rd-navbar-static .rd-navbar-brand img {
-	max-width: 231px;
+	max-width: 200px;
 }
 
 .rd-navbar-modern.rd-navbar-static .rd-navbar-main-element {
@@ -15582,6 +15585,10 @@ html.rd-navbar-fixed-linked .page {
 .page.bread .section-xl{
 	padding-top: 20px;
 }
+.page.cake #content .isotope ,
+.page.bread #content .isotope {
+	padding-top: 75px;
+}
 .page.cake .isotope-filters-list,
 .page.bread .isotope-filters-list{
 	position: absolute;
@@ -15596,12 +15603,9 @@ html.rd-navbar-fixed-linked .page {
     display: flex;
     transform: translate(-50%, 0px);
 }
-.page.cake .isotopet,
-.page.bread .isotopet{
-	margin-top: 50px !important;
-}
 .page.cake .isotope-filters-list li a,
 .page.bread .isotope-filters-list li a{
+    text-wrap: nowrap;
 	margin-bottom: 0 !important;
 }
 .isotope-filters-list a {
@@ -15699,6 +15703,10 @@ html.rd-navbar-fixed-linked .page {
 	.isotope-filters-toggle {
 		display: none;
 	}
+	.page.cake #content .isotope ,
+.page.bread #content .isotope {
+	padding-top: 0;
+}
 	.page.cake .section-xl,
 .page.bread .section-xl{
 	padding-top: 50px;
@@ -15719,6 +15727,7 @@ html.rd-navbar-fixed-linked .page {
 .page.cake .isotope-filters-list li a,
 .page.bread .isotope-filters-list li a{
 	margin-bottom: 1rem !important;
+    text-wrap: balance;
 }
 }
 
@@ -16240,7 +16249,9 @@ html.rd-navbar-fixed-linked .page {
 		margin-top: 55px;
 	}
 }
-
+.card img{
+	object-fit: cover;
+}
 .card-group-custom {
 	margin-bottom: 0;
 }
