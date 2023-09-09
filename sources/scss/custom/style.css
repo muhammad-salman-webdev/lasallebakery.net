@@ -672,9 +672,10 @@ a:hover {
   text-decoration: none;
 }
 a,
+a.active,
 a:focus,
 a:active {
-  color: #deb50b;
+  color: #deb50b !important;
 }
 a:hover {
   color: #957a07;
@@ -10804,6 +10805,8 @@ html.tablet .ui-to-top {
 .rd-navbar-static .rd-dropdown-link {
   color: #151515;
 }
+.rd-navbar-static .rd-megamenu-list-link.active,
+.rd-navbar-static .rd-dropdown-link.active,
 .rd-navbar-static .rd-dropdown-link:hover {
   color: #deb50b;
 }

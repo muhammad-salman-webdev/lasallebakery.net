@@ -11873,7 +11873,8 @@ html.tablet .ui-to-top {
 .rd-navbar-static .rd-dropdown-link {
   color: #151515;
 }
-
+.rd-navbar-static  .rd-megamenu-list-link.active,
+.rd-navbar-static .rd-dropdown-link.active,
 .rd-navbar-static .rd-dropdown-link:hover {
   color: #deb50b;
 }
@@ -16597,8 +16598,8 @@ html.rd-navbar-fixed-linked .page {
   .isotope-filters-toggle {
     display: none;
   }
-  .page.cake #content .isotope,
-  .page.bread #content .isotope {
+  .page.cake  .isotope,
+  .page.bread .isotope {
     padding-top: 0;
   }
   .page.cake .section-xl,
