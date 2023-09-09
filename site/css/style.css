@@ -11876,7 +11876,7 @@ html.tablet .ui-to-top {
 .rd-navbar-static  .rd-megamenu-list-link.active,
 .rd-navbar-static .rd-dropdown-link.active,
 .rd-navbar-static .rd-dropdown-link:hover {
-  color: #deb50b;
+  color: #deb50b !important;
 }
 
 .rd-navbar-static .rd-dropdown-link,
