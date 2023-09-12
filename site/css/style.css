@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /*
 * Trunk version 2.0.1
@@ -467,8 +468,25 @@ h2,
   font-size: 26px;
   line-height: 1.18182;
 }
+.breadcrumbs-custom-title {
+  font-family: 'Unbounded', sans-serif !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  
+}
+.breadcrumbs-custom-title span{
+  font-family: 'Unbounded', sans-serif !important;
+}
 .breadcrumbs-custom-title .h3 {
   font-size: 16px;
+ 
+}
+.para{
+ text-align: justify;
+ letter-spacing: 0.5px;
+}
+.headings{
+  text-align: start !important;
 }
 
 iframe {
@@ -612,6 +630,7 @@ h6,
 .heading-6 {
   font-size: 14px;
   line-height: 1.75;
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
@@ -21089,6 +21108,13 @@ disabled look for disabled choices in the results dropdown
   background: #ebebeb;
 }
 
+
+
+
+
+
+
+
 .product-stepper .stepper-arrow.up {
   top: 0;
 }
@@ -21149,4 +21175,11 @@ disabled look for disabled choices in the results dropdown
 .box-icon-modern-svg [id*="SVGID"] {
   --color-stop-1: #e9da5d;
   --color-stop-2: #76aa6f;
+}
+
+.footer-modern .thumbnail-minimal{
+  height: 90px;
+}
+.footer-modern .thumbnail-minimal img{
+  object-fit: cover;
 }

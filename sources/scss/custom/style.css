@@ -429,6 +429,8 @@ h2,
 
 .breadcrumbs-custom-title .h3 {
   font-size: 16px;
+  text-align: start !important;
+  
 }
 
 @media (min-width: 768px) {
