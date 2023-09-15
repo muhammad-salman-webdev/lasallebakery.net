@@ -7168,6 +7168,7 @@ textarea.textarea-lg {
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
+  min-height: 100%;
 }
 
 .product::before {
@@ -13904,6 +13905,10 @@ html.rd-navbar-fixed-linked .page {
   left: 0;
   z-index: 1080;
 }
+.page-header{
+  position: relative;
+  z-index: 999;
+}
 
 .context-dark .rd-navbar-creative.rd-navbar-static,
 .bg-gray-700 .rd-navbar-creative.rd-navbar-static,
@@ -16519,6 +16524,35 @@ html.rd-navbar-fixed-linked .page {
 .page.bread .isotope-filters-list li a {
   text-wrap: nowrap;
   margin-bottom: 0 !important;
+}
+.news .card img{
+  object-fit: contain !important;
+}
+.gallery-partners .partners .img-wrapper{
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1b80e;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.gallery-partners .partners .img-wrapper img{
+  width: 80%;
+  height: 80%; 
+  object-fit: contain;
+  display: block;
+}
+.gallery-partners .partners .brand-name{ 
+  color: #333 ;
+  font-weight: bold; 
+  line-height: normal;  
+ font-size: 13px;
+}
+.img-inverted-white{
+  filter: brightness(15);
 }
 .isotope-filters-list a {
   position: relative;
